@@ -1,0 +1,20 @@
+html { 
+  background: url(img/newbanner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	width: 350px;
+	height: auto;
+	position: absolute;
+	margin: 30px;
+}
+
+.navbar {
+	font-family: 'Raleway', sans-serif;
+}
