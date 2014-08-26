@@ -1,0 +1,96 @@
+body {
+  padding-top: 50px;
+  background-image:url("img/subtlenet2.png");
+  background-repeat: repeat;
+ /* 
+  background-color:#FFEEDD;
+*/
+  }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar {
+	font-family: 'Raleway', sans-serif;
+}
+
+hr {
+	color:#000000;
+}
+
+.video-thumbnail {
+	padding: 3px;
+	width: 100%;
+	height:272px;
+	max-height:auto;
+}
+.tile-1 {
+	float:right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 50%;
+	height:auto;
+}
+
+.tile-2 {
+	float:left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 50%;
+	height:auto;
+}
+
+.tile-3 {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 3px;
+ padding-right: 3px;
+}
+
+.divider{
+	padding:0px;
+	margin: 0px;
+}
+
+.logo {
+	font-family: 'Oswald',sans-serif;
+	text-align: left;
+	padding-top: 220px;
+	padding-bottom: 240px;
+	background-image: url('img/banner.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #FFFFFF;
+}
+
+.mission {
+	text-align: left;
+}
+
+.your-help {
+	text-align:left;
+}
+
+.we-do {
+	text-align:left;
+}
+
+
+h1 {
+    font-family: 'Oswald',sans-serif;
+    font-weight:400;
+    font-size: 50px;
+    line-height: 55px;
+}
+ 
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
