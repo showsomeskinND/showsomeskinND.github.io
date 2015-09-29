@@ -1,0 +1,63 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	background: black;
+}
+
+#vidPlayer {
+	width: 150%;
+	position:absolute;
+    left:-25%;
+}
+
+div.vidSection {
+	position:absolute;
+	word-wrap: normal;
+	text-align: justify;
+}
+
+
+-webkit-animation: BGAnimation 60s ease infinite;
+-moz-animation: BGAnimation 60s	ease infinite;
+animation: BGAnimation 60s ease infinite;
+
+@-webkit-keyframes BGAnimation {
+    0%{
+    	left:150%;
+    }
+    100%{left:-50%;}
+}
+@-moz-keyframes BGAnimation {
+    0%{left:0%;}
+    100%{left:100%;}
+}
+@keyframes BGAnimation { 
+    0%{left:150%;}
+    100%{left:-300%;}
+}
+
+
+img.poster {
+	float: left;
+	width: 20%;
+}
+
+div.bg {
+	z-index: -5;
+	position: absolute;
+	width: 300%;
+	height: 100%;
+
+	animation-name: BGAnimation;	
+	-webkit-animation-name: BGAnimation;
+	-moz-animation-name: BGAnimation;
+	
+	animation-timing-function: linear;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	
+	background: linear-gradient(270deg, #000000, #ffffff, #000000);
+}
