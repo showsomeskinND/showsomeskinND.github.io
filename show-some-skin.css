@@ -5,6 +5,7 @@ body {
  /* 
   background-color:#FFEEDD;
 */
+	font-family: 'Raleway', sans-serif;
   }
 .starter-template {
   padding: 40px 15px;
@@ -86,6 +87,14 @@ hr {
 	text-align:left;
 }
 
+div#clockdiv {
+	font-size: 20px;
+}
+div.clocklet {
+    display: inline;
+    color: "#333333";
+    font-size: 35px;
+}
 
 h1 {
 /*    font-family: 'Oswald',sans-serif; */
@@ -98,5 +107,4 @@ h1 {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    line-height: 25px;
 }
