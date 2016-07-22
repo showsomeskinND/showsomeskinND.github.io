@@ -1,0 +1,221 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HTMLCODER
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.2.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+.header.dark {
+  background-color: #181A20;
+  border-top-color: #181A20;
+}
+/*Backgrounds*/
+
+.background-img-1 {
+
+  background: url("../images/pattern-shattered.png") 50% 0px repeat;
+/* ========================================================
+ This pattern is downloaded from www.subtlepatterns.com
+ If you need more, that's where to get'em.
+ ======================================================== */
+}
+
+.background-img-2 {
+  background: url("../images/grid_3_background.png") 50% 0px repeat;
+}
+
+.background-img-3 {
+  background: url("../images/diagmonds.png") 50% 0px repeat;
+  /* ========================================================
+ This pattern is downloaded from www.subtlepatterns.com
+ If you need more, that's where to get'em.
+ ======================================================== */
+}
+
+.background-img-4 {
+  background: url("../images/seriousboy_2.jpg") 50% 0px repeat;
+
+}
+
+.background-img-5 {
+  background: url("../images/showsomeskinactors.jpg") 50% 0px repeat;
+}
+
+#white_text {
+  color: #ffffff;
+}
+
+/*Buttons*/
+.btn-midnightblue-transparent {
+  color: #333333;
+  background-color: transparent;
+  border-color: #777777;
+}
+
+.banner.parallax,
+.banner.light-translucent-bg,
+.banner.dark-translucent-bg,
+.banner.default-translucent-bg {
+  min-height: 250px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+/*Translucent Backgrounds*/
+.default-translucent-bg:after {
+  background-color: rgba(128, 147, 152, 0.1);
+}
+
+.default-translucent-bg.hovered:hover:after {
+  background-color: rgba(128, 147, 152, 0.2);
+}
+
+.default-translucent-bg,
+.default-translucent-bg h1,
+.default-translucent-bg h2,
+.default-translucent-bg h3,
+.default-translucent-bg h4,
+.default-translucent-bg h5,
+.default-translucent-bg h6 {
+  color: #ffffff;
+}
+
+.default-translucent-bg a:not(.btn) {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.default-translucent-bg a:not(.btn):hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.default-bg .separator:after,
+.dark-translucent-bg .separator:after,
+.default-translucent-bg .separator:after,
+.light.separator:after {
+  background: rgba(255, 255, 255, 0.5);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(35%, rgba(255, 255, 255, 0.5)), color-stop(70%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+}
+
+.default-bg .separator-2:after,
+.default-translucent-bg .separator-2:after,
+.dark-translucent-bg .separator-2:after,
+.light.separator-2:after {
+  background: rgba(255, 255, 255, 0.5);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(35%, rgba(232, 232, 232, 0.4)), color-stop(70%, rgba(232, 232, 232, 0.2)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+}
+
+.default-bg .separator-3:after,
+.default-translucent-bg .separator-3:after,
+.dark-translucent-bg .separator-3:after,
+.light.separator-3:after {
+  background: rgba(255, 255, 255, 0.5);
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(35%, rgba(232, 232, 232, 0.4)), color-stop(70%, rgba(232, 232, 232, 0.2)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.5) 0%, rgba(232, 232, 232, 0.4) 35%, rgba(232, 232, 232, 0.2) 70%, rgba(255, 255, 255, 0) 100%);
+}
+
+.default-bg .btn-default,
+.default-translucent-bg .btn-default,
+.default-bg .btn-default-transparent,
+.default-translucent-bg .btn-default-transparent {
+  color: #09afdf;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+
+
+.default-bg .btn-default,
+.default-translucent-bg .btn-default,
+.default-bg .btn-default-transparent,
+.default-translucent-bg .btn-default-transparent {
+  color: #809398;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.default-bg .btn-default:hover,
+.default-translucent-bg .btn-default:hover,
+.default-bg .btn-default:focus,
+.default-translucent-bg .btn-default:focus,
+.default-bg .btn-default.focus,
+.default-translucent-bg .btn-default.focus,
+.default-bg .btn-default:active,
+.default-translucent-bg .btn-default:active,
+.default-bg .btn-default.active,
+.default-translucent-bg .btn-default.active,
+.default-bg .open > .dropdown-toggle.btn-default,
+.default-translucent-bg .open > .dropdown-toggle.btn-default,
+.default-bg .btn-default-transparent:hover,
+.default-translucent-bg .btn-default-transparent:hover,
+.default-bg .btn-default-transparent:focus,
+.default-translucent-bg .btn-default-transparent:focus,
+.default-bg .btn-default-transparent.focus,
+.default-translucent-bg .btn-default-transparent.focus,
+.default-bg .btn-default-transparent:active,
+.default-translucent-bg .btn-default-transparent:active,
+.default-bg .btn-default-transparent.active,
+.default-translucent-bg .btn-default-transparent.active,
+.default-bg .open > .dropdown-toggle.btn-default-transparent,
+.default-translucent-bg .open > .dropdown-toggle.btn-default-transparent {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.dark-translucent-bg .btn-gray-transparent,
+.default-translucent-bg .btn-gray-transparent,
+.default-bg .btn-gray-transparent {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.dark-translucent-bg .btn-gray-transparent:hover,
+.default-translucent-bg .btn-gray-transparent:hover,
+.default-bg .btn-gray-transparent:hover,
+.dark-translucent-bg .btn-gray-transparent:focus,
+.default-translucent-bg .btn-gray-transparent:focus,
+.default-bg .btn-gray-transparent:focus {
+  border-color: #ffffff;
+  color: #777777;
+  background-color: #ffffff;
+}
+
+
+.aboutimg {
+
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 50%;
+}
+
+.aboutfacultyimg {
+
+    width:  150px;
+    height: 150px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 50%;
+}
