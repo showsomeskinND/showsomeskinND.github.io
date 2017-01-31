@@ -219,3 +219,7 @@ File Description: Place here your custom CSS styles
     background-size:     cover;
     border-radius: 50%;
 }
+
+.dark-translucent-bg:after {
+  background-color: rgba(0, 0, 0, 0.7);
+}
