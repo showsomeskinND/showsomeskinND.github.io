@@ -3,6 +3,5 @@ Show Some Skin is a student-led initiative that invites members of the
 Notre Dame community to share narratives about identity and difference.
 
 ### Tasks
-- [x] Added Twitter button
+- [x] Add Twitter button
 - [ ] Add SSS around campus
-- [ ]
