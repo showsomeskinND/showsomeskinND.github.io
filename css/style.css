@@ -7775,3 +7775,15 @@ h6.media-heading {
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
+
+.half-opacity {
+   opacity: .6;
+}
+
+.in-the-news li {
+   margin-bottom: 1.6rem !important;
+}
+
+.in-the-news {
+   margin-top: 3rem;
+}
