@@ -34,8 +34,8 @@ License URI:http://support.wrapbootstrap.com/
 }
 
 .background-img-4 {
-  background: url("../images/NDShowSomeSkin_JeanCarloYunenArostegui.jpg") 50% 0px repeat;
-
+  /*background: url("../images/NDShowSomeSkin_JeanCarloYunenArostegui.jpg") 50% 0px repeat;*/
+  background: url("../images/Gabe_Krut.jpg") 10% 70%;
 }
 
 .background-img-5 {
