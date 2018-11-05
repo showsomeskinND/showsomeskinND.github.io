@@ -7787,3 +7787,10 @@ h6.media-heading {
 .in-the-news {
    margin-top: 3rem;
 }
+
+.monologue-bg{
+    background-image: url('../images/blank_sss_background.png') ;
+    background-size: cover;
+    
+    
+}
